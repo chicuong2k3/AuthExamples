@@ -354,3 +354,8 @@ private string GenerateQrCodeUri(string email, string unformattedKey)
 }
 ```
 
+## Conditionally Showing UI with AuthorizationService
+
+```c#
+var result = await AuthorizationService.AuthorizeAsync(User, "Policy");
+```
